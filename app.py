@@ -30,5 +30,5 @@ def simulate_keystroke():
         return jsonify({'status': 'Error simulating keystroke', 'error': str(e)}), 400
 
 if __name__ == '__main__':
-    # Listen on all interfaces on port 5000.
-    app.run(host='0.0.0.0', port=5000)
+    # Listen on all interfaces on port 8000.
+    app.run(host='0.0.0.0', port=8000)
